@@ -1,0 +1,32 @@
+.Form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+    
+}
+
+.Form input {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    width: 250px;
+    height: 20px;
+    border-color: white;
+}
+
+.Form button {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    font-size: 13px;
+    border-color: white;
+    width: 100px;
+}
+
+.Form button:hover {
+    transform: scale(1.2);
+    background-color: #2619d3;
+    
+}
